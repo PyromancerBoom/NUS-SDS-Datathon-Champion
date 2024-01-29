@@ -43,7 +43,8 @@ model_path = './train_model.pkl'
 loaded_model = load_model(model_path)
 ```
 
-### Step 4: Make Predictions
+### Step 4: Make Predictions (Run the cell with testing_hidden_data)
+NOTE: This process takes a few minutes please be patient :D
 
 Now that the model is loaded, you can use them to make predictions on new data. Here's a simple example:
 
