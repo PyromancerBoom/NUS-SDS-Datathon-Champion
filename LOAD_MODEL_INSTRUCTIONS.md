@@ -2,6 +2,8 @@
 
 These are manual instructions, by default the repository and notebook are configured to run automatically.
 
+Typically, this process has been automated in the notebook. But in case there may be an issues, you may use the below manual to setup the model.
+
 To load the model, follow these simple instructions:
 
 ### Step 1: Install Required Packages
@@ -12,7 +14,7 @@ Install the requirements from the `reqs.txt` file in the root folder.
 
 Download the model file from the repository. The model files typically include:
 
-- `model.pkl`: The trained model file. This is found in `/data` folder.
+- `train_model.pkl`: The trained model file. This file is in the root folder.
 
 ### Step 3: Load the Model
 
@@ -37,7 +39,7 @@ def load_model(model_path):
 ### Load the model
 
 ```
-model_path = './data/model.pkl'
+model_path = './train_model.pkl'
 loaded_model = load_model(model_path)
 ```
 
